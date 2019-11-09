@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tile90</string>
+    <string-array name="label">
+        <item>90Hz</item>
+        <item>60Hz</item>
+        <item>Auto</item>
+    </string-array>
+</resources>
