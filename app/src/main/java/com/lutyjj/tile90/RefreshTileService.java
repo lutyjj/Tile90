@@ -13,7 +13,7 @@ public class RefreshTileService extends TileService {
     @Override
     public void onClick() {
         super.onClick();
-        switchState();
+        cycleState();
     }
 
     private int getState() {
@@ -33,7 +33,7 @@ public class RefreshTileService extends TileService {
         changeTile(state);
     }
 
-    private void switchState() {
+    private void cycleState() {
         int currentState = getState();
 
         if (currentState == REFRESH_60) setState(REFRESH_90);
